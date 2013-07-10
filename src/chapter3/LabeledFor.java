@@ -44,5 +44,6 @@ public class LabeledFor {
 
 	static void prt(String s) {
 		System.out.println(s);
+		System.out.println("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa");
 	}
 } // /:~
