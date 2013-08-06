@@ -14,7 +14,7 @@ class FilterAdapter implements Processor {
 		return filter.name();
 	}
 
-	public Object process(Object input) {
+	public Waveform process(Object input) {
 		return filter.process((Waveform) input);
 	}
 }
