@@ -8,6 +8,7 @@
 bin/
 bin\
 bin\chapter4\
+bin\chapter5\
 tmp/
 *.tmp
 *.bak
