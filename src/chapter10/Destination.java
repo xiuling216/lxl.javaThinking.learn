@@ -1,9 +1,5 @@
 package chapter10;
-
-/**
- * @echo 2013-8-12
- * 
- */
+//: innerclasses/Destination.java
 public interface Destination {
-	String readLabel();
-}
+  String readLabel();
+} ///:~

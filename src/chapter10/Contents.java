@@ -1,9 +1,5 @@
 package chapter10;
-
-/**
- * @echo 2013-8-12
- * 
- */
+//: innerclasses/Contents.java
 public interface Contents {
-	int value();
-}
+  int value();
+} ///:~
