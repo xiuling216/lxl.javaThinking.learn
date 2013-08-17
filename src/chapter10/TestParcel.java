@@ -2,7 +2,7 @@ package chapter10;
 
 /**
  * @echo 2013-8-12
- * 
+ * 内部类与向上转型
  */
 class Parcel4 {
 	private class PContents implements Contents {
@@ -39,7 +39,9 @@ class Parcel4 {
 public class TestParcel {
 
 	public static void main(String[] args) {
-
+		Parcel4 p = new Parcel4();
+		Contents c = p.contents();
+		Destination d = p.destionation("Tasmania");
+		// Parcel4.PContents pc=p.new PContents();
 	}
-
 }
