@@ -5,10 +5,7 @@
 *.pydevproject
 .project
 .metadata
-bin/
-bin\
-bin\chapter4\
-bin\chapter5\
+bin
 tmp/
 *.tmp
 *.bak
