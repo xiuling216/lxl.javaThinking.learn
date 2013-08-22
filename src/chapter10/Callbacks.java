@@ -1,7 +1,11 @@
 package chapter10;
 //: innerclasses/Callbacks.java
 // Using inner classes for callbacks
-
+/**
+ * 通过内部类提供闭包的功能
+ * @echo  2013-8-22
+ *
+ */
 interface Incrementable {
   void increment();
 }

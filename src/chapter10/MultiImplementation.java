@@ -1,10 +1,11 @@
 package chapter10;
-//: innerclasses/MultiImplementation.java
-// With concrete or abstract classes, inner
-// classes are the only way to produce the effect
-// of "multiple implementation inheritance."
-
-
+/**
+ * 多重继承的解决方式：
+ * 实现多个接口，可以多次使用implements，或者使用内部类
+ * 但是对于具体的类或者抽象的类，只能使用内部类
+ * @echo  2013-8-22
+ *
+ */
 class D {}
 abstract class E {}
 
@@ -20,4 +21,4 @@ public class MultiImplementation {
     takesD(z);
     takesE(z.makeE());
   }
-} ///:~
+} 
