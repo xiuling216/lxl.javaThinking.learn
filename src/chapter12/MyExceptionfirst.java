@@ -4,7 +4,7 @@ package chapter12;
  * @echo 2013-9-25
  * 
  */
-public class MyException {
+public class MyExceptionfirst {
 
 	public static void main(String[] args) {
 		int i = 10;
