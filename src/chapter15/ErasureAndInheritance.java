@@ -6,7 +6,7 @@ class GenericBase<T> {
 	private T element;
 
 	public void set(T arg) {
-		element=arg;
+		element = arg;
 	}
 
 	public T get() {
@@ -26,7 +26,6 @@ class Derived2 extends GenericBase {
 // required: class or interface without bounds
 
 public class ErasureAndInheritance {
-
 	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		Derived2 d2 = new Derived2();
